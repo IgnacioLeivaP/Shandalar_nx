@@ -1,0 +1,32 @@
+# Controles de Autorun para Shandalar. Va junto a Shandalar.exe.
+#
+# Se usan cuando ShandalarPad está desactivado o suspendido (L3 + R3).
+# Mientras ShandalarPad está activo, el mando lo maneja él y este archivo
+# no se aplica (salvo la pantalla táctil, que siempre funciona como mouse).
+#
+# Formato: NOMBRE=código de tecla virtual de Windows; 0 = nada.
+# A y B quedan en 0 para que sigan siendo clic izquierdo y derecho.
+
+# Ambos sticks mueven el cursor; el D-pad envía flechas.
+LSTICK=mouse
+RSTICK=mouse
+DPAD=keys
+
+# X = Enter, Y = Espacio
+X=0x0D
+Y=0x20
+
+# L, R, ZL y ZR sin uso
+L=0
+R=0
+ZL=0
+ZR=0
+
+# + = Escape; - sin tecla (Minus + stick derecho abre el teclado en pantalla)
+PLUS=0x1B
+MINUS=0
+
+# Clic de sticks: Ctrl y Alt. ShandalarPad los usa para detectar L3 + R3 y
+# reactivarse. Si los cambias, ajusta ResumeKey1/2 en ShandalarPad.ini.
+STICKL=0x11
+STICKR=0x12
