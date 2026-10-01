@@ -1,0 +1,3 @@
+LIBRARY image.dll
+EXPORTS
+  LoadImage = image_orig.LoadImage @1

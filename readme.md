@@ -17,3 +17,7 @@ You can then use the files locally on your hard drive.
 ### Running the game
 
 To run the game, navigate into the folder and run Shandalar.exe (Windows only)
+
+### Nintendo Switch
+
+See [switch/README.md](switch/README.md) (in Spanish) to run the game on a Switch with homebrew through Autorun, with controller support (ShandalarPad).
